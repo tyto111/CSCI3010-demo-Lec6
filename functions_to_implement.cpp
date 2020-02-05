@@ -1,3 +1,6 @@
+#include <iostream>
+#include <vector>
+#include <string>
 /* String functions section */
 
 // Splits a single string on separator into a vector of strings
@@ -18,7 +21,14 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 
 // divides an input integer by 2 until it is impossible to do so, then returns the final number.
 // (16 = 2 * 2 * 2 * 2 * 1 -> 1, 7 -> 7, 26 = 2 * 13 -> 13, 52 = 2 * 2 * 13 -> 13)
-int RemoveTwos(int original);
+int RemoveTwos(int original){
+	int remainder = original;
+	while(remainder % 2 == 0)
+	{
+		remainder = remainder/2;
+	}
+	return remainder;
+}
 
 // takes a vector of integers and removes all elements evenly divisible by the passed in int
 std::vector<int> MultiplesFilter(std::vector<int>, int divides_by);
@@ -111,3 +121,9 @@ std::vector<int> SubtractN(std::vector<int>, int n);
 
 // subtracts n to each element of the vector
 std::vector<double> SubtractN(std::vector<double>, double n);
+
+int main()
+{
+	std::cout << RemoveTwos(49);
+	return 0;
+}
