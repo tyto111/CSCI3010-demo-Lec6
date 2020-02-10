@@ -1,5 +1,7 @@
 # CSCI3010-demo-Lec6
 
+[![Build Status](https://travis-ci.org/stanfordnlp/CoreNLP.svg?branch=master)](https://travis-ci.org/stanfordnlp/CoreNLP)
+
 This is some random text.
 
 I have done something. THis is something more than that.
