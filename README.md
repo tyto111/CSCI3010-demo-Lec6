@@ -1,5 +1,7 @@
 # CSCI3010-demo-Lec6
 
+[![Build Status](https://travis-ci.org/CSCI-3010-CUBoulder/CSCI3010-demo-Lec6.svg?branch=master)](https://travis-ci.org/CSCI-3010-CUBoulder/CSCI3010-demo-Lec6)
+
 This is some random text.
 
 I have done something. THis is something more than that.
